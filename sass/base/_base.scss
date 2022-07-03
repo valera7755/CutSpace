@@ -1,0 +1,43 @@
+html, body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: $black-color;
+	line-height: 1.6875;
+
+}
+
+.visuali__hidden{
+	opacity: 0;
+	visibility: hidden;
+	width: 1px;
+	height: 1px;
+	display: block;
+	margin-left: -10000px;
+	background: transparent;
+}
+
+.container {
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding-left: 15px;
+	padding-right: 15px;
+
+	&--fluid{
+		max-width: unset;
+		width: 100%;
+	}
+
+	&--no-padding{
+		padding: 0;
+	}
+}
+
+.container--fluid{
+	width: 100%;
+}
+
+.none{
+	display: none;
+}

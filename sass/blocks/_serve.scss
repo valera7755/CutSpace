@@ -1,0 +1,40 @@
+.serve {
+	padding-bottom: 120px;
+	padding-top: 0px;
+	//background-color: ;
+	position: relative;
+
+	&::before{
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-color: #F5F6FA;
+
+		position: absolute;
+		top: -50%;
+		bottom: 50%;
+		left: 0;
+		z-index: -1;
+	}
+}
+
+
+
+.serve__heading {
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+
+
+.serve__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	column-gap: 30px;
+	
+}
+
+
+
